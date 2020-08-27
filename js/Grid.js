@@ -9,7 +9,7 @@ function input()
 	var color1=document.getElementById("Color1").value;
 	var color2=document.getElementById("Color2").value;
 	var color3=document.getElementById("Color3").value;
-	console.log(size);
+	
 	if(size<=30&&size>0)
 	{
 		create_grid(size);
@@ -107,7 +107,7 @@ function css(size)
 	var r=document.getElementsByTagName("TD");
 	if(size<=25)
 	{
-		console.log(t);
+		
 		var v=t/size;
 	}
 	if(size>25)
@@ -180,7 +180,7 @@ function bonus()
 			
 		}
 	}
-	console.log(v);
+	
 	
 	var max= Math.max.apply(null, v);
 	
@@ -192,7 +192,6 @@ function bonus()
 		
 		for(var i=n+1;i<o;i++)
 		{
-			console.log(i);
 			if(v[i]==max)
 			{
 				array[array.length]=i+1;
