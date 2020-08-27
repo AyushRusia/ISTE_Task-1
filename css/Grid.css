@@ -1,0 +1,162 @@
+
+
+header
+{
+
+	margin:1%;
+	margin-bottom:10px;
+	display:inline-block;
+	width:98%;
+	border-bottom:3px solid gray;
+	background-color:#fad02e;
+
+}
+h1,h2
+{
+	text-align:center;
+	color:#503E98;
+	font-size:150%;
+	font-family:"Times New Roman";
+	font-variant:small-caps;
+}
+h3
+{
+	position:relative;
+	left:70%;
+	color:#3C7E60;
+	font-size:"Arial";
+	font-style:bold;
+	font-size:150%;
+}
+.user_input
+{
+	padding:1%;
+	background-color:#FF3E4D;
+	display:inline-block;
+	width:29%;
+	height:max-height;
+	
+	margin-left:1%;
+	
+}
+.Grid
+{	
+	
+	background-color:#13C8BA;
+	margin-right:1%;
+	display:inline-block;
+	width:64%;
+	height:710px;
+	
+	float:right;
+	padding:1%;
+	border:2px solid blue;
+	border-bottom:0;
+}
+.Grided
+{
+	background-color:#40807B;
+	margin-right:1%;
+	display:inline-block;
+	width:64%;
+	float:right;
+	padding:1%;
+	border:2px solid blue;
+	border-bottom:0;height:max-height;
+}
+.special, .name
+{
+	padding:1%;
+	display:block;
+	width:29%;
+	height:max-height;
+	background-color:#BA2F16;
+	margin-left:1%;
+	color:#74b9ff;
+	font-family:"Arial";
+	font-size;150%;	
+	
+}
+.name
+{
+	text-align:center;
+	position:relative;
+	top:100%;
+	height:max-height;
+	color:white;
+	font-family:"Calibiri";
+	background-color:#37487A;
+	font-weight:bold;
+	
+	
+}
+table.tab
+{
+	
+	border-spacing:2px;
+	background:black;
+	border:solid 3px black;
+	margin:auto;
+}
+.user_input button,.special button
+{
+	color:black;
+	padding:2px 4px 2px 4px;
+	margin-right:20px;
+	margin-top:10px;
+	margin-bottom:10px;
+	background-color:;
+	
+}.user_input label
+{
+	font-weight: 900;
+	display:inline-block;
+	color:#;
+	font-family:"Comic Sans MS";
+	margin-right:10px;
+	margin-left:15px;
+	margin-bottom:10px;
+	margin-top:10px;
+	vertical-align:center;
+}
+.user_input label:nth-child(2)	
+{
+	margin-left:0px;
+}	
+.user_input input
+{
+	display:inline-block;
+	width:40%;height:20px;
+	border:2px solid black;
+	text-align:center;
+	font-variant:bold;
+	margin-left:5px;
+	
+}
+@media only screen and (max-width: 600px)
+ {
+  header,.user_input,.Grid.special,.name
+  {
+    display:block;
+	margin:1%;
+	padding:1%;
+	width:96%;
+  }
+  .Grid
+  {
+	
+	width:95%;
+	height:300px;
+	border-bottom:2px solid blue;
+	margin-left:1%;
+	margin-bottom:1%;
+  }
+  .special
+  {
+	
+	width:96%;
+	height:max-height; 
+  }
+}
+
+
